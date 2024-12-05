@@ -19,11 +19,11 @@
     <img src="https://img.shields.io/github/issues/MohamedAmineNasri/ZeroWaste" alt="GitHub Issues">
   </a>
 </p>
-<!-- <p align="center">
+<p align="center">
   <kbd>[<a href="http://zerowaste.kesug.com/auth/register-basic">
-    <img src="https://user-images.githubusercontent.com/5073095/165227845-438b0f58-d2c2-49c4-92e9-349577b0b48d.png" alt="ZeroWaste Demo Screenshot">
+    <img src="https://media.licdn.com/dms/image/v2/D4E2DAQETmfb-649VRA/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1733419767714?e=1734040800&v=beta&t=p7jnVdLysyDiXdLqScLTAzzJ7a-gKYwbGoIrPmwlNew" alt="ZeroWaste Demo Screenshot">
   </a>]</kbd>
-</p> -->
+</p>
 
 <h2>Introduction 🚀</h2>
 
