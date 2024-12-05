@@ -27,29 +27,29 @@
 
 <h2>Introduction 🚀</h2>
 
-<p>**ZeroWaste** is a Laravel-based application built to promote sustainability by empowering users to reduce waste, recycle efficiently, and learn sustainable practices. The platform offers various features such as finding recycling centers, community events, and educational resources for a greener lifestyle.</p>
+<p>ZeroWaste is a Laravel-based application built to promote sustainability by empowering users to reduce waste, recycle efficiently, and learn sustainable practices. The platform offers various features such as finding recycling centers, community events, and educational resources for a greener lifestyle.</p>
 
 <p><a href="http://zerowaste.kesug.com/auth/register-basic">View Demo</a></p>
 
 <h2>Features 🌱</h2>
 
 <ul>
-  <li>**Interactive Recycling Map:** Locate nearby recycling centers.</li>
-  <li>**Admin Dashboard:** Manage recycling centers, materials, and events.</li>
-  <li>**Online Payments:** Secure payment integration via **Stripe**.</li>
-  <li>**Event Management:** Admins can create, update, and manage recycling events.</li>
-  <li>**Educational Content:** Best practices on recycling, waste reduction, and sustainability.</li>
-  <li>**Tips & Challenges:** Engage users with tips, challenges, and community participation.</li>
+  <li>Interactive Recycling Map: Locate nearby recycling centers.</li>
+  <li>Admin Dashboard: Manage recycling centers, materials, and events.</li>
+  <li>Online Payments: Secure payment integration via Stripe.</li>
+  <li>Event Management: Admins can create, update, and manage recycling events.</li>
+  <li>Educational Content: Best practices on recycling, waste reduction, and sustainability.</li>
+  <li>Tips & Challenges: Engage users with tips, challenges, and community participation.</li>
 </ul>
 
 <h2>Technologies Used 🔧</h2>
 
 <ul>
-  <li>**Backend:** Laravel (PHP framework)</li>
-  <li>**Frontend:** HTML, CSS, JavaScript</li>
-  <li>**Payment Integration:** Stripe API</li>
-  <li>**Email Notifications:** Mail API</li>
-  <li>**Version Control:** GitHub</li>
+  <li>Backend: Laravel (PHP framework)</li>
+  <li>Frontend: HTML, CSS, JavaScript</li>
+  <li>Payment Integration: Stripe API</li>
+  <li>Email Notifications: Mail API</li>
+  <li>Version Control: GitHub</li>
 </ul>
 
 <h2>Setup Instructions ⚒️</h2>
@@ -57,31 +57,31 @@
 <p>To run the project locally, follow these steps:</p>
 
 <ol>
-  <li>**Clone the repository:**
+  <li>Clone the repository:
     ```bash
     git clone [https://github.com/MohamedAmineNasri/ZeroWaste.git](https://github.com/MohamedAmineNasri/ZeroWaste.git)
     ```</li>
-  <li>**Install dependencies:**
+  <li>Install dependencies:
     ```bash
     cd ZeroWaste
     composer install
     npm install
     ```</li>
-  <li>**Create .env file:**
+  <li>Create .env file:
     <p>Copy the .env.example file and configure your database and other environment variables.</p></li>
-  <li>**Generate application key:**
+  <li>Generate application key:
     ```bash
     php artisan key:generate
     ```</li>
-  <li>**Run migrations:**
+  <li>Run migrations:
     ```bash
     php artisan migrate
     ```</li>
-  <li>**Serve the application:**
+  <li>Serve the application:
     ```bash
     php artisan serve
     ```</li>
-  <li>**Visit the app at http://localhost:8000.**</li>
+  <li>Visit the app at http://localhost:8000.</li>
 </ol>
 
 <h2>Demo 🌐</h2>
