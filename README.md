@@ -1,219 +1,116 @@
-<p align="center"></p>
+<p align="center">
+   <a href="https://github.com/MohamedAmineNasri/ZeroWaste" target="_blank">
+      <img src="https://user-images.githubusercontent.com/5073095/165227845-438b0f58-d2c2-49c4-92e9-349577b0b48d.png" alt="ZeroWaste Logo" width="30px" height="auto">
+   </a></p>
+<h1 align="center">
+   <a href="https://github.com/MohamedAmineNasri/ZeroWaste" target="_blank" align="center">
+      ZeroWaste - Sustainability & Recycling Platform
+   </a></h1>
+<p align="center">A Laravel-powered platform to promote eco-friendly practices and sustainable living by helping users manage waste and recycle effectively.</p>
 
 <p align="center">
-   <a href="https://themeselection.com/item/sneat-free-bootstrap-html-laravel-admin-template/" target="_blank">
-      <img src="https://user-images.githubusercontent.com/749684/150333149-805037bc-8874-4a1f-876a-61a9683f8ef5.png" alt="sneat-logo" width="30px" height="auto">
-   </a>
+  <a href="https://github.com/MohamedAmineNasri/ZeroWaste">
+    <img src="https://img.shields.io/github/license/MohamedAmineNasri/ZeroWaste" alt="GitHub License">
+  </a>
+  <a href="https://github.com/MohamedAmineNasri/ZeroWaste">
+    <img src="https://img.shields.io/github/v/release/MohamedAmineNasri/ZeroWaste" alt="GitHub Release">
+  </a>
+  <a href="https://github.com/MohamedAmineNasri/ZeroWaste">
+    <img src="https://img.shields.io/github/issues/MohamedAmineNasri/ZeroWaste" alt="GitHub Issues">
+  </a>
+</p>
+<p align="center">
+  <kbd>[<a href="http://zerowaste.kesug.com/auth/register-basic">
+    <img src="https://user-images.githubusercontent.com/5073095/165227845-438b0f58-d2c2-49c4-92e9-349577b0b48d.png" alt="ZeroWaste Demo Screenshot">
+  </a>]</kbd>
 </p>
 
-<h1 align="center">
-   <a href="https://themeselection.com/item/sneat-free-bootstrap-html-laravel-admin-template/" target="_blank" align="center">
-      Sneat - Free Bootstrap 5 HTML Laravel Admin Template
-   </a>
-</h1>
+<h2>Introduction 🚀</h2>
 
-<p align="center">Most Powerful & Comprehensive Free Bootstrap 5 HTML Laravel Admin Dashboard Template built for developers!</p>
+<p>**ZeroWaste** is a Laravel-based application built to promote sustainability by empowering users to reduce waste, recycle efficiently, and learn sustainable practices. The platform offers various features such as finding recycling centers, community events, and educational resources for a greener lifestyle.</p>
 
-![GitHub](https://img.shields.io/github/license/themeselection/sneat-html-laravel-admin-template-free) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/themeselection/sneat-html-laravel-admin-template-free) ![GitHub issues](https://img.shields.io/github/issues/themeselection/sneat-html-laravel-admin-template-free) ![GitHub closed issues](https://img.shields.io/github/issues-closed/themeselection/sneat-html-laravel-admin-template-free) ![Twitter Follow](https://img.shields.io/twitter/follow/Theme_Selection?style=social)
+<p><a href="http://zerowaste.kesug.com/auth/register-basic">View Demo</a></p>
 
+<h2>Features 🌱</h2>
 
-<kbd>[![Sneat - Bootstrap 5 HTML Laravel Admin Template Demo Screenshot](https://user-images.githubusercontent.com/5073095/165227845-438b0f58-d2c2-49c4-92e9-349577b0b48d.png)](https://themeselection.com/item/sneat-free-bootstrap-html-laravel-admin-template/)</kbd>
+<ul>
+  <li>**Interactive Recycling Map:** Locate nearby recycling centers.</li>
+  <li>**Admin Dashboard:** Manage recycling centers, materials, and events.</li>
+  <li>**Online Payments:** Secure payment integration via **Stripe**.</li>
+  <li>**Event Management:** Admins can create, update, and manage recycling events.</li>
+  <li>**Educational Content:** Best practices on recycling, waste reduction, and sustainability.</li>
+  <li>**Tips & Challenges:** Engage users with tips, challenges, and community participation.</li>
+</ul>
 
-## Introduction 🚀
+<h2>Technologies Used 🔧</h2>
 
-If you’re a developer looking for most Powerful & comprehensive [**Free Bootstrap 5 HTML Laravel Admin Template**](https://themeselection.com/item/sneat-free-bootstrap-html-laravel-admin-template/) built for developers, rich with features, and highly customizable look no further than Sneat. We’ve followed the highest industry standards to bring you the very best admin template that is not only fast and easy to use but highly scalable. Offering ultimate convenience and flexibility, you’ll be able to build whatever application you want with very little hassle.
+<ul>
+  <li>**Backend:** Laravel (PHP framework)</li>
+  <li>**Frontend:** HTML, CSS, JavaScript</li>
+  <li>**Payment Integration:** Stripe API</li>
+  <li>**Email Notifications:** Mail API</li>
+  <li>**Version Control:** GitHub</li>
+</ul>
 
-Build premium quality applications with ease. Use our innovative [Laravel admin templates](https://themeselection.com/products/category/laravel-admin-templates/) to create eye-catching, high-quality WebApps. Your apps will be completely responsive, ensuring they’ll look stunning and function flawlessly on desktops, tablets, and mobile devices.
+<h2>Setup Instructions ⚒️</h2>
 
-[View Demo](https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template-free/demo/)
+<p>To run the project locally, follow these steps:</p>
 
-## Installation ⚒️
+<ol>
+  <li>**Clone the repository:**
+    ```bash
+    git clone [https://github.com/MohamedAmineNasri/ZeroWaste.git](https://github.com/MohamedAmineNasri/ZeroWaste.git)
+    ```</li>
+  <li>**Install dependencies:**
+    ```bash
+    cd ZeroWaste
+    composer install
+    npm install
+    ```</li>
+  <li>**Create .env file:**
+    <p>Copy the .env.example file and configure your database and other environment variables.</p></li>
+  <li>**Generate application key:**
+    ```bash
+    php artisan key:generate
+    ```</li>
+  <li>**Run migrations:**
+    ```bash
+    php artisan migrate
+    ```</li>
+  <li>**Serve the application:**
+    ```bash
+    php artisan serve
+    ```</li>
+  <li>**Visit the app at http://localhost:8000.**</li>
+</ol>
 
-Installing and running Sneat is super easy, please follow below steps and you will be ready to rock 🤘
+<h2>Demo 🌐</h2>
 
-1. Open the terminal in your root directory of Sneat Laravel.
-2. Use following command to install composer
+<p>Explore the live platform here:</p>
 
-```bash
-composer install
-```
+<p>🌍 <a href="http://zerowaste.kesug.com/auth/register-basic">ZeroWaste Website</a></p>
 
-3. Run the following command to generate the key
+<h2>Contribution 🤝</h2>
 
-```bash
-php artisan key:generate
-```
+<p>Contributions are welcome! Please feel free to fork the repo, submit issues, or pull requests.</p>
 
-4. By running the following command, you will be able to get all the dependencies in your **node_modules** folder:
+<h2>License 📄</h2>
 
-```bash
-yarn
-```
+<p>Distributed under the MIT License. See the LICENSE file for details.</p>
 
-5. To run the project, you need to run following command in the project directory. It will compile JavaScript and Styles.
+<h2>Contact 📧</h2>
 
-```bash
-yarn dev
-```
+<p>For any inquiries or suggestions, feel free to contact me via GitHub.</p>
 
-6. To serve the application, you need to run the following command in the project directory
+<h2>Social Media 📱</h2>
 
-```bash
-php artisan serve
-```
+<p>Follow for updates:</p>
 
-7. Now navigate to the given address, you will see your application is running.🥳
+<ul>
+  <li>Twitter</li>
+  <li>LinkedIn</li>
+</ul>
 
-## Available Tasks 🧑‍💻
+<h2>Acknowledgements 💚</h2>
 
-**Building for Production :** If you want to run the project and make the build in the production mode then run the following command in the root directory, by default the project will continue to run in the development mode:
-
-```bash
-yarn prod
-```
-
-
-## What's Included 📦
-
-- Dashboard
-- Layouts
-  - Without menu
-  - Without Navbar
-  - Container
-  - Fluid
-  - Blank
-- Pages
-  - Account Settings
-  - Login
-  - Register
-  - Forgot Password
-  - Error
-  - Under Maintenance
-- Cards
-- User Interface
-  - **All Bootstrap Components**
-- Extended UI
-  - Perfect Scrollbar
-  - Text Divider
-- Boxicon
-- Form Elements
-  - Basic Inputs
-  - Input Groups
-- Form Layout
-  - Vertical Form
-  - Horizontal Form
-- Tables
-
-## What's in Premium Version 💎
-
-| Sneat Free Version                                                                        | Sneat Premium Version                                                                                                            |
-| ----------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| [Demo](https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template-free/demo/)    | [Demo](https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/landing)                         |
-| [Download](https://themeselection.com/item/sneat-free-bootstrap-html-laravel-admin-template/) | [Purchase](https://themeselection.com/item/sneat-bootstrap-html-laravel-admin-template/)                                             |
-| Single vertical Menu                                                                      | Vertical Menu + Horizontal Menu                                                                                                  |
-| Simple Light Style                                                                        | Light & Dark Style                                                                                                               |
-| Default Theme                                                                             | Default, Semi Dark & Bordered Themes                                                                                             |
-| Fixed Layout(Menu)                                                                        | Fixed & Static Layout(Menu)                                                                                                      |
-| 1 Simple Dashboard                                                                        | 3 Niche Dashboards                                                                                                               |
-| -                                                                                         | Multiple Ready to use Application like **Laravel CRUD Application**, Calendar, Invoice, Users List, Users View, Roles and Permission etc.                      |
-| Simple From Elements                                                                      | Advance form elements, validation & form wizard                                                                                  |
-| Basic Cards                                                                               | Basic, Advance , Statistics, Analytics, Gamifications and Actions Cards                                                          |
-| Basic User Interface(Components)                                                          | Advance and Custom User Interfaces(Components)                                                                                   |
-| Two Extended Components                                                                   | Twelve Ready to use Extended Components                                                                                          |
-| -                                                                                         | Quick Search - Quickly navigate between pages (w/ hotkey support)                                                                |
-| Basic Pages                                                                               | Authentication Pages in 2 Variants + Ready to use pages like User Profile, Account Settings,FAQ, Help Center, Pricing, Misc etc. |
-| -                                                                                         | 3D Characters + Illustrations                                                                                                    |
-| Basic tables                                                                              | Advanced tables                                                                                                                  |
-| -                                                                                         | Quick customization using theme config file                                                                                      |
-| -                                                                                         | Leaflet Maps                                                                                                                     |
-| 1 Chart Library                                                                           | 2 Chart Libraries                                                                                                                |
-| -                                                                                         | Multiple Navbar & Menu Options                                                                                                   |
-| -                                                                                         | Starter-kit                                                                                                                      |
-| -                                                                                         | **Localization support**                                                                                                     |
-| -                                                                                         | RTL Support                                                                                                                      |
-| Regular Support                                                                           | Priority Support                                                                                                                 |
-| Detailed Documentation                                                                    | Detailed Documentation                                                                                                           |
-
-## Documentation 📜
-
-<!-- If you have live docs then use below line -->
-
-Check out our live [Documentation](https://themeselection.com/demo/sneat-bootstrap-html-admin-template/documentation/laravel-introduction.html)
-
-## Browser Support 🖥️
-
-At present, we officially aim to support the last two versions of the following browsers:
-
-- Chrome (latest)
-- FireFox (latest)
-- Safari (latest)
-- Microsoft Edge (latest)
-- Opera (latest)
-
-## Useful Links 🎁
-
-- [Freebies](https://themeselection.com/products/category/download-free-admin-templates/)
-- [Download Free Admin Templates](https://themeselection.com/products/category/download-free-admin-templates/)
-- [Bootstrap 5 CheatSheet](https://bootstrap-cheatsheet.themeselection.com/)
-
-## Support 👨‍💻
-
-We use GitHub issues as support tickets to manage Item support.
-
-1. In order to raise the GitHub issue, you must have a github account. [Raise a Issue](https://github.com/themeselection/sneat-html-laravel-admin-template-free/issues)
-
-## License ©
-
-- Copyright © [ThemeSelection](https://themeselection.com/)
-- Licensed under [MIT](LICENSE)
-
-## Contributing 🦸
-
-Contribution are always welcome and recommended! Here is how:
-
-* Fork the repository ([here is the guide](https://docs.github.com/en/get-started/quickstart/fork-a-repo)).
-* Clone to your machine `git clone https://github.com/YOUR_USERNAME/REPO_NAME` Make your changes
-* Create a pull request
-
-### Contribution Requirements 🧰
-
-* When you contribute, you agree to give a non-exclusive license to ThemeSelection to use that contribution in any context as we (ThemeSelection) see appropriate.
-* If you use content provided by another party, it must be appropriately licensed using an open source license.
-* Contributions are only accepted through Github pull requests.
-* Finally, contributed code must work in all supported browsers (see above for browser support).
-
-## Creators 😇
-
-* [ThemeSelection](https://themeselection.com)
-
-## Changelog 📆
-
-Please refer to the [CHANGELOG](CHANGELOG.md) file. We will add a detailed release notes to each new release.
-
-## NOTE 🏷️
-
-**We request you to keep ThemeSelection credit link in the footer section.**
-
-## Looking For Premium Admin Templates ?? 👀
-
-**[ThemeSelection](https://themeselection.com/)** provides Selected high quality, modern design, professional and easy-to-use Free and Premium [Bootstrap Admin Templates](https://themeselection.com/products/category/bootstrap-admin-templates/), [VueJS Admin Templates](https://themeselection.com/products/category/vuejs-admin-templates/), [Laravel Admin Templates](https://themeselection.com/products/category/laravel-admin-templates/), HTML Themes, and [Free UI Kits](https://themeselection.com/products/category/free-ui-kits/) to create your applications faster!.
-
-If you want to [Download Free Admin Templates](https://themeselection.com/products/category/download-free-admin-templates/) like Materio then do visit [ThemeSelection](https://themeselection.com/).
-
-## Other variants
-
-* [html variant]({https://themeselection.com/products/sneat-bootstrap-html-admin-template/})
-<!-- Add others here -->
-
-## Useful Links 🎁
-
-* [Freebies](https://themeselection.com/products/category/download-free-admin-templates/)
-* [Download Free Admin Templates](https://themeselection.com/products/category/download-free-admin-templates/)
-* [Bootstrap 5 CheatSheet](https://bootstrap-cheatsheet.themeselection.com/)
-
-## Social Media :earth_africa:
-
-- Twitter : [https://twitter.com/Theme_Selection](https://twitter.com/Theme_Selection)
-- Facebook : [https://www.facebook.com/ThemeSelections/](https://www.facebook.com/ThemeSelections/)
-- Pinterest : [https://pinterest.com/themeselect/](https://pinterest.com/themeselect/)
-- Instagram : [https://www.instagram.com/themeselection/](https://www.instagram.com/themeselection/)
+<p>This project was developed to support sustainable living and encourage responsible waste management. Thank you for supporting eco-friendly practices!</p>
