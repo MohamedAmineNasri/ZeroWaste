@@ -19,11 +19,11 @@
     <img src="https://img.shields.io/github/issues/MohamedAmineNasri/ZeroWaste" alt="GitHub Issues">
   </a>
 </p>
-<p align="center">
+<!-- <p align="center">
   <kbd>[<a href="http://zerowaste.kesug.com/auth/register-basic">
     <img src="https://user-images.githubusercontent.com/5073095/165227845-438b0f58-d2c2-49c4-92e9-349577b0b48d.png" alt="ZeroWaste Demo Screenshot">
   </a>]</kbd>
-</p>
+</p> -->
 
 <h2>Introduction 🚀</h2>
 
@@ -58,31 +58,28 @@
 
 <ol>
   <li>Clone the repository:
-    ```bash
-    git clone [https://github.com/MohamedAmineNasri/ZeroWaste.git](https://github.com/MohamedAmineNasri/ZeroWaste.git)
-    ```</li>
+    <pre><code>git clone https://github.com/MohamedAmineNasri/ZeroWaste.git</code></pre>
+  </li>
   <li>Install dependencies:
-    ```bash
-    cd ZeroWaste
-    composer install
-    npm install
-    ```</li>
+    <pre><code>cd ZeroWaste
+composer install
+npm install</code></pre>
+  </li>
   <li>Create .env file:
-    <p>Copy the .env.example file and configure your database and other environment variables.</p></li>
+    <p>Copy the .env.example file and configure your database and other environment variables.</p>
+  </li>
   <li>Generate application key:
-    ```bash
-    php artisan key:generate
-    ```</li>
+    <pre><code>php artisan key:generate</code></pre>
+  </li>
   <li>Run migrations:
-    ```bash
-    php artisan migrate
-    ```</li>
+    <pre><code>php artisan migrate</code></pre>
+  </li>
   <li>Serve the application:
-    ```bash
-    php artisan serve
-    ```</li>
+    <pre><code>php artisan serve</code></pre>
+  </li>
   <li>Visit the app at http://localhost:8000.</li>
 </ol>
+
 
 <h2>Demo 🌐</h2>
 
@@ -102,14 +99,14 @@
 
 <p>For any inquiries or suggestions, feel free to contact me via GitHub.</p>
 
-<h2>Social Media 📱</h2>
+<!-- <h2>Social Media 📱</h2>
 
 <p>Follow for updates:</p>
 
 <ul>
   <li>Twitter</li>
   <li>LinkedIn</li>
-</ul>
+</ul>-->
 
 <h2>Acknowledgements 💚</h2>
 
